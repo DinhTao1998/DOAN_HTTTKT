@@ -9,7 +9,7 @@ namespace DOAN_HTTTKT.DAO
     class KetNoi
     {
         private static KetNoi instance;
-        public string conn = @"Data Source=.\SQLEXPRESS;Initial Catalog=giavonhangban;Integrated Security=True";
+        public string conn = @"Data Source=.\SQLEXPRESS;Initial Catalog=DOAN;Integrated Security=True";
 
         public static KetNoi Instance
         {
